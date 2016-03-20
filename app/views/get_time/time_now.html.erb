@@ -1,0 +1,5 @@
+<h1> what time is it?</h1>
+
+ <% @current_time = Time.now %>
+<h2>The current time is <%= @current_time.to_formatted_s (:rfc822) %></h2>
+
